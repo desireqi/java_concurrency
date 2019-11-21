@@ -10,6 +10,7 @@ public class MyTest1 {
         Object object = new Object();
         synchronized (object){
             object.wait();
+
         }
     }
 }
